@@ -1,0 +1,40 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004017",
+  "source": "openneuro",
+  "source_id": "ds004017",
+  "title": "Embodied Learning for Literacy EEG",
+  "authors": {
+    "Linn Damsgaard": {},
+    "Marta Topor": {},
+    "Anne-Mette Veber Nielsen": {},
+    "Anne Kær Gejl": {},
+    "Anne Sofie Bøgh Malling": {},
+    " Mark Schram Christensen": {},
+    "Rasmus Ahmt Hansen": {},
+    " Søren Kildahl": {},
+    "Jacob Wienecke": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004017.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.2.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "n/a"
+    }
+  ]
+}
