@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Embodied Learning for Literacy EEG",
+  "description": "This EEG dataset comprises neurophysiological recordings from children during a literacy intervention study examining embodied learning effects on letter discrimination. Participants completed a two-alternative forced choice discrimination task before and after an intervention period, with concurrent visual search task performance during the intervention phase. The dataset includes 21 participants divided into intervention and control groups, with event markers indicating stimulus type (letters b and d) and trial classification.",
+  "methods_description": "EEG recordings were collected during three experimental stages: pre-intervention letter discrimination task, intervention-phase visual search task with target and distractor letters, and post-intervention letter discrimination task. Stimulus presentation events were marked with codes indicating letter type (100 for b, 200 for d) and trial type (10 for b practice, 20 for d practice).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,12 +17,30 @@
     " Søren Kildahl": {},
     "Jacob Wienecke": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004017.v1.0.3",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "literacy"
+    },
+    {
+      "term": "letter discrimination"
+    },
+    {
+      "term": "embodied learning"
+    },
+    {
+      "term": "visual search"
+    },
+    {
+      "term": "children"
+    },
+    {
+      "term": "intervention study"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004017",
       "identifier_type": "URL",
@@ -30,22 +50,24 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004017",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004017.v1.0.3",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
     {
       "funder_name": "n/a"
-    },
-    {
-      "funder_name": "No funding"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "39.3 GB (254 files)"
   ],
   "formats": [
     ".bdf",
@@ -55,38 +77,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset contains EEG recordings from children performing letter discrimination and visual search tasks across three experimental stages: pre-intervention baseline, intervention measurement, and post-intervention assessment. Participants were assigned to either an intervention or control group to evaluate the effects of embodied learning on literacy-related neural processing. Event markers indicate stimulus type (100=letter b, 200=letter d) and trial type (10=b practice, 20=d practice).",
-  "methods_description": "EEG data were collected during three stages of a behavioral protocol: (1) pre-intervention two-alternative forced choice discrimination task with letters b and d, (2) intervention-phase visual search task with target letter (b or d) and random distractors (p or q), and (3) post-intervention discrimination task. Event markers indicate stimulus type (100=letter b, 200=letter d) and trial type (10=b practice, 20=d practice). Participants were assigned to intervention (n=11) or control (n=10) groups.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "event markers"
-    },
-    {
-      "term": "letter discrimination"
-    },
-    {
-      "term": "visual search"
-    },
-    {
-      "term": "embodied learning"
-    },
-    {
-      "term": "literacy"
-    },
-    {
-      "term": "children"
-    },
-    {
-      "term": "intervention study"
-    },
-    {
-      "term": "child development"
-    }
-  ],
-  "source_hash": "2e6c2a95e0539964b5fd6ab5f1db3e5cbfc815411147d48dcd653e72af27fede"
+  "source_hash": "5f797124014268ebb8723397ce7ac95745fc466716d155d4807b921fe55c7227"
 }
